@@ -1,5 +1,5 @@
-FROM dit4c/dit4c-container-ipython:latest
-MAINTAINER Tim Dettrick <t.dettrick@uq.edu.au>
+FROM dit4c/dit4c-container-ipython:8.0-cudnn5-devel
+MAINTAINER Jean-Marc Guiraudet <jguiraudet@gmail.com>
 
 RUN su - researcher -c \
   "/opt/python/bin/pip install jupyterlab && \
