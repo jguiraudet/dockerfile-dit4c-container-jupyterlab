@@ -1,4 +1,4 @@
-FROM dit4c/dit4c-container-ipython:8.0-cudnn5-devel
+FROM jguiraudet/dit4c-container-ipython:8.0-cudnn5-devel
 MAINTAINER Jean-Marc Guiraudet <jguiraudet@gmail.com>
 
 RUN su - researcher -c \
